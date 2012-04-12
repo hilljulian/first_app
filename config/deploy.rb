@@ -5,7 +5,7 @@ ssh_options[:forward_agent] = true
 set :use_sudo, false
 set :user, "julianhill"
 
-set :application, "rubytest1.7dish.es"
+set :application, "7dish.es"
 set :repository,  "git@github.com:hilljulian/first_app.git"
 set :scm, :git
 set :branch, 'master'
